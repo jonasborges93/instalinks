@@ -1,7 +1,6 @@
 <h1 align="center"> Instalinks </h1>
 
-<p align="center">
-Projeto feito para portfolio utilizando as aulas da Biblioteca da [Rocketseat](https://biblioteca.rocketseat.com.br) no módulo de NodeJS com EJS. </p>
+Projeto feito para portfolio utilizando as aulas da Biblioteca da [Rocketseat](https://biblioteca.rocketseat.com.br) no módulo de NodeJS com EJS.
 <!--
 <p align="center">
   <img src=".github/preview.png" alt="Demonstração do projeto" width="100%" />
