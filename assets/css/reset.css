@@ -1,0 +1,76 @@
+:root {
+  /*FONTS*/
+  --font-family: "Mulish", sans-serif;
+  --size-default: 16px;
+
+  /*Colors*/
+  --white: #fff;
+
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --green-300: #00b37e;
+  --green-500: #00875f;
+
+  --red-500: #f75a68;
+
+  /*MEDIAS QUERIES*/
+  --mobile: 600px;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--gray-400);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--gray-700);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--gray-400);
+  border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--size-default);
+}
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; /*15px*/
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%; /*14px*/
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button,
+a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<%- include ('../partials/head') %>
+
+  <body>
+    <%- include ('../partials/header') %>
+      <main>
+        <section class="profile">
+          <div class="container">
+            <img src="<%= profile.avatar_url %>" alt="Imagem do Jonas Borges" class="profile-image">
+            <div class="social">
+              <ul class="social-list">
+                <% social.forEach(function(item){ %>
+                  <li class="social-item">
+                    <a href="<%= item.link %>" target="_blank" class="social-link">
+                      <img src="<%= item.icon %>" alt="Icone <%= item.title %>">
+                      <%= item.title %>
+                    </a>
+                  </li>
+                  <% }) %>
+              </ul>
+              <a href="<%= profile.site %>" target="_blank" class="cta">Acesse meu site!</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <%- include ('../partials/footer') %>
+  </body>
+
+  </html>
